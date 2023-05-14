@@ -1,0 +1,53 @@
+{% extends 'magasin/base.html' %}
+{% block content %}
+<link
+href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+rel="stylesheet">
+<div class="col-md-12 text-center">
+    <h2 class="text-2xl font-bold">Manip Fournisseur ......</h2>
+  </div>
+  <style>input[type="text"],
+    textarea {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    input[type="file"] {
+        margin-top: 10px;
+    }
+
+    textarea {
+        height: 150px;
+    }</style>
+  <div class="flex justify-center items-center h-screen">
+    <form method="POST" class="w-full max-w-lg p-6 rounded-lg shadow-md bg-white">
+      {% csrf_token %}
+      <div class="mb-4">
+        <label for="{{ form.nom.id_for_label }}" class="block text-gray-700 text-sm font-bold mb-2">Nom</label>
+        {{ form.nom }}
+      </div>
+      
+      <div class="mb-4">
+        <label for="{{ form.adresse.id_for_label }}" class="block text-gray-700 text-sm font-bold mb-2">Adresse</label>
+        {{ form.adresse }}
+      </div>
+      
+      <div class="mb-4">
+        <label for="{{ form.email.id_for_label }}" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+        {{ form.email }}
+      </div>
+      
+      <div class="mb-4">
+        <label for="{{ form.telephone.id_for_label }}" class="block text-gray-700 text-sm font-bold mb-2">Telephone</label>
+        {{ form.telephone }}
+      </div>
+      
+      <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Enregistrer
+      </button>
+    </form>
+  </div>
+  
+{% endblock %}

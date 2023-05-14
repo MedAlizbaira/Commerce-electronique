@@ -1,0 +1,14 @@
+1:http://127.0.0.1:9000/magasin/api/category/
+2:http://127.0.0.1:9000/magasin/api/produits/
+
+api produit
+http://127.0.0.1:9000/magasin/api/produits/
+
+api Category
+http://127.0.0.1:9000/magasin/api/category/
+
+api produit =1
+http://127.0.0.1:9000/magasin/api/produit/?categorie_id=1
+
+api produit =2
+http://127.0.0.1:9000/magasin/api/produit/?categorie_id=2

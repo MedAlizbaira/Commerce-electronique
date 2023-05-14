@@ -1,0 +1,29 @@
+{% extends 'magasin/base.html' %}
+
+{% block content %}
+<link
+href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+rel="stylesheet">
+<form method='POST' class="post-form">
+    {% csrf_token %}
+    <div class="container py-10">
+      <div class="overflow-scroll border border-black p-10">
+        <table class="w-1400">
+          <tr>
+            {% for product in list %}
+            <td class="p-25 w-600">
+              <img src="/media/{{product.img}}" class="w-200 h-150">
+              <figcaption class="figure-caption">{{product.libellé}}</figcaption>
+              <p>{{product.prix}} DT.</p>
+              <a href="{% url 'detail_product' product_id=product.id %}" class="">Voir détails</a>
+              <a href="{% url 'edit_product' product.id %}" class="btn btn-success">Modifier</a>
+              <a href="{% url 'delete_product' product.id %}" class="btn btn-danger">Supprimer</a>
+            </td>
+            {% endfor %}
+          </tr>
+        </table>
+      </div>
+    </div>
+  </form>
+  
+</div> {% endblock %}

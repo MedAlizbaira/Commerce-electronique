@@ -1,0 +1,12 @@
+{% extends 'magasin/base.html' %}
+{% block title %} {{produit.libellé}} {% endblock %}
+
+{% block content %}
+  <div class="container mt-3">
+    <h2>{{produit.libellé}}</h2>
+    <img src="/media/{{produit.img}}" style="width: 200px; height: 300px;">
+    <p>{{produit.description}}</p>
+    <p>Prix: {{produit.prix}}</p>
+    <a href="{% url 'Catalogue' %}" class="btn btn-secondary">Retour au catalogue</a>
+  </div>
+{% endblock %}
