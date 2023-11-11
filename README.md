@@ -2,9 +2,9 @@
 
 Ce projet est un site de commerce électronique spécialisé dans la vente en ligne de légumes et de fruits. Les clients peuvent parcourir une large gamme de produits frais, passer des commandes et effectuer des transactions en ligne.
 ## Screenshots
- ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699702826/Artyprod/umymgbnnt3hrj1sqdjgt.png)
- ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699702826/Artyprod/umymgbnnt3hrj1sqdjgt.png)
- ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699702826/Artyprod/umymgbnnt3hrj1sqdjgt.png)
+ ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699736780/Commerce-electronique/betgj62f17okgmhnukdn.png)
+ ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699736780/Commerce-electronique/betgj62f17okgmhnukdn.png)
+ ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699736861/Commerce-electronique/gp0mdpe0xgggfzjglqnb.png)
 
 ## Fonctionnalités
 
