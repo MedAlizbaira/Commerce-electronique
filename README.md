@@ -5,7 +5,7 @@ Ce projet est un site de commerce électronique spécialisé dans la vente en li
  ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699736780/Commerce-electronique/betgj62f17okgmhnukdn.png)
  ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699736823/Commerce-electronique/gmrrhny4atuln2bv42pc.png)
  ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699736861/Commerce-electronique/gp0mdpe0xgggfzjglqnb.png)
-
+ ![Interfaces ](https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699737231/Commerce-electronique/mxrukz79aovuhi0ls0vb.png)
 ## Fonctionnalités
 
 - **Catalogue de Produits :** 
